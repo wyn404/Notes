@@ -15,7 +15,9 @@ docker exec -it container-id /bin/bash #进入容器
 
 docker rm container-id # 删除容器
 
-# linux环境下docker运行时无须前加sudo
+
+
+#### linux环境下docker运行时无须前加sudo
 '''
     sudo groupadd docker
     sudo gpasswd -a ${wyn} docker
