@@ -9,7 +9,7 @@ docker start xxxxxx # 开启容器
 
 docker run -it image-id /bin/bash # 创建容器
 
-docker run -itd --name xxx -v /host-path:/workspace --privileged=true image-id # 将主机文件映射到容器种
+docker run -itd --name xxx -v /host-path:/workspace --privileged=true image-id # 将主机文件映射到容器中
 
 docker exec -it container-id /bin/bash #进入容器
 

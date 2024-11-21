@@ -102,6 +102,7 @@ cd ~/.oh_my_zsh/plugins
 
 # clone the Repository
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
 
 # Add the following to your .zshrc file
 和zsh内置插件安装步骤相同
@@ -137,3 +138,15 @@ export LANG=en_US.UTF-8
 source ~/.zshrc
 ```
 
+
+
+
+
+#### remove the background color to improve the reading experience.
+```
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"
+```
+
+将其粘贴到`~/.bashrc`或者`~/.zshrc`中，用哪个shell就粘贴到哪个里面
