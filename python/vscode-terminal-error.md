@@ -1,13 +1,13 @@
 base环境下
 
 ```
-D:\Config\anaconda3\Lib\site-packages
+D:\Config\anaconda3\lib\pythonx.x\site-packages
 ```
 
 虚拟环境下
 
 ```
-D:\Config\anaconda3\envs\xxxx\Lib\site-packages
+D:\Config\anaconda3\envs\xxxx\Lib\\site-packages
 ```
 
 

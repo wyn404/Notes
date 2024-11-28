@@ -104,6 +104,7 @@ cd ~/.oh_my_zsh/plugins
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
 
+
 # Add the following to your .zshrc file
 和zsh内置插件安装步骤相同
 ```
@@ -150,3 +151,13 @@ eval "$(dircolors -p | \
 ```
 
 将其粘贴到`~/.bashrc`或者`~/.zshrc`中，用哪个shell就粘贴到哪个里面
+
+
+
+#### 配置p10k终端
+
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+修改/.zshrcp
+```
