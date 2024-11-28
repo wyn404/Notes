@@ -159,5 +159,5 @@ eval "$(dircolors -p | \
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
-修改/.zshrcp
+修改/.zshrc，路径名为powerlevel10k/powerlevel10k
 ```
