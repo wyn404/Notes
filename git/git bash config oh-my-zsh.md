@@ -157,7 +157,9 @@ eval "$(dircolors -p | \
 #### 配置p10k终端
 
 ```
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 修改/.zshrc，路径名为powerlevel10k/powerlevel10k
+
+安装MesloLGS NF字体
 ```
