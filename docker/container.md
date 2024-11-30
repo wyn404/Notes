@@ -15,7 +15,9 @@ docker exec -it container-id /bin/bash #进入容器
 
 docker rm container-id # 删除容器
 
+docker cp 文件 容器名：容器内路径  # 复制文件到容器
 
+ 
 
 #### linux环境下docker运行时无须前加sudo
 '''
