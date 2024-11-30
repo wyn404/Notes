@@ -19,7 +19,7 @@ docker rm container-id # 删除容器
 
 #### linux环境下docker运行时无须前加sudo
 '''
-     sudo usermod -aG docker $USER
+    sudo usermod -aG docker $USER
     sudo systemctl restart docker
     newgrp docker
 '''
