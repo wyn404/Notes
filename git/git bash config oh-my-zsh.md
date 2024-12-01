@@ -12,6 +12,7 @@ zsh --version
 
 # 若未安装，先安装zsh
 zsh安装包地址：https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64
+sudo yum/apt-get install -y zsh
 ```
 
 下载完成后，将下载后的文件etc,usr,.INSTALL,...等复制粘贴到Git目录下。
@@ -141,19 +142,6 @@ source ~/.zshrc
 
 
 
-
-
-#### remove the background color to improve the reading experience.
-```
-eval "$(dircolors -p | \
-    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
-    dircolors /dev/stdin)"
-```
-
-将其粘贴到`~/.bashrc`或者`~/.zshrc`中，用哪个shell就粘贴到哪个里面
-
-
-
 #### 配置p10k终端
 
 ```
@@ -163,3 +151,27 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$H
 
 安装MesloLGS NF字体
 ```
+
+#### 安装autojump插件
+
+```
+cd ~/.oh-my-zsh/custom/plugins/ 
+git clone git@github.com:wting/autojump.git
+cd autojump
+./install.py 
+
+[[ -s /home/wyn/.autojump/etc/profile.d/autojump.sh ]] && source /home/wyn/.autojump/etc/profile.d/autojump.sh
+
+```
+
+
+
+#### remove the background color to improve the reading experience.
+
+```
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"
+```
+
+将其粘贴到`~/.bashrc`或者`~/.zshrc`中，用哪个shell就粘贴到哪个里面
