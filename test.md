@@ -88,8 +88,19 @@
 
 ### 参加考试
 
-1. 学生使用校园统一登陆认证登陆系统后，可以看到当前考试，点击进入考试。
-2. 考试时进入拍照上传题并扫描上传（确认考试准备完成后开始以下操作）
+1. 浏览器地址栏输入 http://10.102.33.39/进入在线实验教学系统，使用校园统一认证进行登录：
+
+![image-20241206153658624](C:\Users\a1235\AppData\Roaming\Typora\typora-user-images\image-20241206153658624.png)
+
+2. 选择课程
+
+![image-20241206153725719](C:\Users\a1235\AppData\Roaming\Typora\typora-user-images\image-20241206153725719.png)
+
+3. 进入课程后，点击进入考试即可参加考试。
+
+![image-20241206153756890](C:\Users\a1235\AppData\Roaming\Typora\typora-user-images\image-20241206153756890.png)
+
+4. 考试时进入拍照上传题并扫描上传（确认考试准备完成后开始以下操作）
 
 ![img](http://docs.educg.net/server/index.php?s=/api/attachment/visitFile/sign/61c57bf5d1bdc8b3fb026b14fdf3d2a0&showdoc=.jpg)
 
