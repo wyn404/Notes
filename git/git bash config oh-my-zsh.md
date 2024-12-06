@@ -149,16 +149,18 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$H
 
 修改/.zshrc，路径名为powerlevel10k/powerlevel10k
 
+p10k configure
+
 安装MesloLGS NF字体
 ```
 
 #### 安装autojump插件
 
 ```
-cd ~/.oh-my-zsh/custom/plugins/ 
+cd ~/.oh-my-zsh/custom/plugins/
 git clone git@github.com:wting/autojump.git
 cd autojump
-./install.py 
+./install.py
 
 [[ -s /home/wyn/.autojump/etc/profile.d/autojump.sh ]] && source /home/wyn/.autojump/etc/profile.d/autojump.sh
 

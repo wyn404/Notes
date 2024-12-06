@@ -49,8 +49,6 @@ conda create --name new_name --clone old_name
 
 
 
-
-
 cmd进入anaconda prompt环境
 
 ```
@@ -69,3 +67,6 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
+
+
+附注：python3.8对应numpy==1.22.0
