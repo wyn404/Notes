@@ -18,6 +18,7 @@ git clone https://gitee.com/dawnwords/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-
 git clone https://gitee.com/lhaisu/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # 安装autojump目录跳转
+cd ~/.oh-my-zsh/custom/plugins/ 
 git clone https://gitee.com/gentlecp/autojump.git
 cd autojump
 ./install.py
